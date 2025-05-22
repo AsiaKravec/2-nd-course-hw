@@ -1,0 +1,46 @@
+$width-site: 1200px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.header {
+    height: 800px;
+    background-color: #E1FF8F;
+
+    &__star3 {
+        margin-top: 69px;
+        margin-left: 156px;
+    }
+
+    &__star2 {
+        margin-top: 94px;
+        margin-left: 63px;
+        }
+
+    &__title {
+        padding-top: 196px;
+        max-width: 769px;
+    }
+
+    &__text {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100%;
+        padding-bottom: 24px;
+    }
+}

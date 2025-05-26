@@ -22,6 +22,7 @@ a {
     height: 800px;
     background-color: #E1FF8F;
     position: relative;
+    overflow-x: hidden;
 }
 
 .header {
@@ -43,7 +44,7 @@ a {
         line-height: 32px;
     }
 
-    &__btn {
+    &__btn{
         width: 247px;
         height: 66px;
         margin-top: 48px;
@@ -60,6 +61,12 @@ a {
     &__btn:hover {
         background-color: #FFFFFF;
         color: #000000;
+    }
+    &__run{
+        color: #FFFFFF;
+    }
+    &__run:hover{
+            color: #000000;
     }
 }
 
@@ -105,6 +112,11 @@ a {
     top: 1622px;
     left: 40px;
 }
+.star7{
+    position: absolute;
+    top: 877px;
+    right: 0;
+}
 
 .scroll {
     position: absolute;
@@ -112,7 +124,7 @@ a {
     width: 100vw;
     z-index: 2;
     bottom: 0;
-    left: -30px;
+    left: 0;
     height: 90px;
     width: 3220px;
     padding-left: 49px;
@@ -123,6 +135,7 @@ a {
         display: flex;
         gap: 138px;
         list-style-type: none;
+        overflow: hidden;
     }
 
     &__item {
@@ -178,6 +191,7 @@ a {
     height: 473px;
     border-radius: 30px;
     background-color: #FFFFFF;
+    z-index: 1;
 
     &__foto {
         width: 100%;

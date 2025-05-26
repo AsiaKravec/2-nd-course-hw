@@ -85,6 +85,18 @@ a {
   left: 1013px;
 }
 
+.star5 {
+  position: absolute;
+  top: 1570px;
+  left: 25px;
+}
+
+.star6 {
+  position: absolute;
+  top: 1622px;
+  left: 40px;
+}
+
 .scroll {
   position: absolute;
   background-color: #BCEC30;

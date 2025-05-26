@@ -56,7 +56,8 @@ a {
         line-height: 142%;
         font-family: "Montserrat";
     }
-    &__btn:hover{
+
+    &__btn:hover {
         background-color: #FFFFFF;
         color: #000000;
     }
@@ -91,6 +92,18 @@ a {
     position: absolute;
     top: 568px;
     left: 1013px;
+}
+
+.star5 {
+    position: absolute;
+    top: 1570px;
+    left: 25px;
+}
+
+.star6 {
+    position: absolute;
+    top: 1622px;
+    left: 40px;
 }
 
 .scroll {
@@ -231,7 +244,8 @@ a {
         border-radius: 60px;
         margin-top: 36px;
     }
-    &__btn:hover{
+
+    &__btn:hover {
         background-color: #FFFFFF;
         color: #000000;
     }

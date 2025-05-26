@@ -50,6 +50,10 @@ a {
   line-height: 142%;
   font-family: "Montserrat";
 }
+.header__btn:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
 
 .bigstar {
   position: absolute;
@@ -204,6 +208,10 @@ a {
   font-size: 24px;
   border-radius: 60px;
   margin-top: 36px;
+}
+.game2__btn:hover {
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
 .secondblock {
